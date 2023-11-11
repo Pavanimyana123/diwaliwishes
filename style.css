@@ -96,3 +96,31 @@ h2 {
         0px 0px 50px rgb(16,175,43,0.863);
     }
 }
+
+
+/* Media Query for screens up to 600px width (Mobile) */
+@media only screen and (max-width: 600px) {
+    .lightsUpLeft,
+    .lightsUpRight,
+    .lightsDownLeft,
+    .lightsDownRight {
+        width: 100px;
+        height: 100px;
+    }
+
+    .diwali_diyasLeft,
+    .diwali_diyasRight {
+        width: 50px;
+        height: 50px;
+    }
+
+    h1,
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    .diyas {
+        width: 300px;
+        height: 180px;
+    }
+}
